@@ -27,7 +27,7 @@ var autoprefixerBrowsers = [
 ];
 
 gulp.task('scripts', function() {
-  return gulp.src(webpackConfig.entry)
+  return gulp.src(webpackConfig.entry.Admin)
     .pipe($.webpackStream(webpackConfig))
     .pipe(isProduction ? $.uglifyjs() : $.util.noop())
     .pipe(gulp.dest(dist + 'js/'))
@@ -50,10 +50,8 @@ gulp.task('styles',function(cb) {
     .pipe($.autoprefixer({browsers: autoprefixerBrowsers}))
     .pipe(gulp.dest(dist + 'css/'))
     .pipe($.size({ title : 'css' }));
-
     // Note: use nodemon instead of connect server
     //.pipe($.connect.reload());
-
 });
 
 gulp.task('serve', function() {

@@ -1,45 +1,50 @@
 var entry = './public/apps/admin/main.js',
 output = {
   path: __dirname,
-  filename: 'main.js'
+  filename: '[name].js'
 };
 var path = require('path');
 
 module.exports.development = {
   debug : true,
   devtool : 'eval',
-  entry: entry,
+  entry: {
+    Admin: './public/apps/admin/main.js',
+    Press: './public/apps/press/main.js'
+  },
   output: output,
   module : {
-    loaders : [{ 
-      test: /\.js?$/, 
-      //exclude: /node_modules/, 
+    loaders : [{
+      test: /\.js?$/,
+      //exclude: /node_modules/,
       include: [ path.resolve(__dirname, "public/apps") ],
-      loader: 'babel-loader' 
+      loader: 'babel-loader'
     },
-      { 
-        test: /\.jade/, 
+      {
+        test: /\.jade/,
         include: [path.resolve(__dirname, "public/apps")],
-        loader: 'jade-loader' 
+        loader: 'jade-loader'
     }]
   }
 };
 
 module.exports.production = {
   debug: false,
-  entry: entry,
+  entry: {
+    Admin: './public/apps/admin/main.js'
+  },
   output: output,
   module : {
-    loaders : [{ 
-      test: /\.js?$/, 
-      //exclude: /node_modules/, 
+    loaders : [{
+      test: /\.js?$/,
+      //exclude: /node_modules/,
       include: [ path.resolve(__dirname, "public/apps") ],
-      loader: 'babel-loader' 
+      loader: 'babel-loader'
     },
-      { 
-        test: /\.jade/, 
+      {
+        test: /\.jade/,
         include: [path.resolve(__dirname, "public/apps")],
-        loader: 'jade-loader' 
+        loader: 'jade-loader'
     }]
   }
 };
