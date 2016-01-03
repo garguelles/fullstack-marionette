@@ -8,13 +8,11 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 
 app.get('/', function (request, response) {
-	//response.json('sample');
 	response.render('index');
 });
 
 app.get('/admin', function(request, response) {
-	//response.status(200).json('hello world sample');
-	response.status(200).sendFile('index.html');
+	response.render('admin/index');
 });
 
 app.listen(port);

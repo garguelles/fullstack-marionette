@@ -16,7 +16,6 @@ const App = Marionette.Application.extend({
   start() {
     if (Backbone.history) Backbone.history.start();
     let $body = $('body');
-    console.log($body, new LayoutView().render().el);
     $body.html(new LayoutView().render().el);
   }
 });
