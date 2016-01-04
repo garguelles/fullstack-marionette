@@ -1,5 +1,7 @@
 # Marionette | Express | ES6 Starter Kit
 
+[![Join the chat at https://gitter.im/garguelles/fullstack-marionette](https://badges.gitter.im/garguelles/fullstack-marionette.svg)](https://gitter.im/garguelles/fullstack-marionette?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Dependency Status](http://david-dm.org/sabarasaba/modern-backbone-starterkit.svg?style=flat)](https://david-dm.org/sabarasaba/modern-backbone-starterkit)
 [![Gitter](http://img.shields.io/badge/chat-online-brightgreen.svg?style=flat)](https://gitter.im/sabarasaba/modern-backbone-starterkit)
 
