@@ -11,10 +11,10 @@
 
 ### Getting Started
 
-Just [clone](github-windows://openRepo/https://github.com/sabarasaba/modern-backbone-starterkit) or [fork](https://github.com/sabarasaba/modern-backbone-starterkit/fork) the repo and start hacking:
+Just [clone](github-windows://openRepo/https://github.com/garguelles/fullstack-marionette.git) or [fork](https://github.com/garguelles/fullstack-marionette/fork) the repo and start hacking:
 
 ```shell
-$ git clone -o upstream https://github.com/sabarasaba/modern-backbone-starterkit.git AwesomeApp && cd $_
+$ git clone -o upstream https://github.com/garguelles/fullstack-marionette.git SampleApp && cd $_
 $ npm install -g gulp karma-cli     # Install Gulp task runner and Karma test runner globally
 $ npm install                       # Install Node.js components listed in ./package.json
 ```
