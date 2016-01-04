@@ -1,5 +1,5 @@
 import Marionette from 'backbone.marionette'
-import tpl from '../templates/index.jade'
+import tpl from '../templates/index'
 
 export default Marionette.LayoutView.extend({
 
@@ -10,5 +10,7 @@ export default Marionette.LayoutView.extend({
   },
 
   onRender() {
+
   }
+
 });

@@ -25,13 +25,17 @@ module.exports.development = {
         include: [path.resolve(__dirname, "public/apps")],
         loader: 'jade-loader'
     }]
+  },
+  resolve: {
+    extensions: ['', '.js', '.jade']
   }
 };
 
 module.exports.production = {
   debug: false,
   entry: {
-    Admin: './public/apps/admin/main.js'
+    Admin: './public/apps/admin/main.js',
+    Press: './public/apps/press/main.js'
   },
   output: output,
   module : {
@@ -46,5 +50,8 @@ module.exports.production = {
         include: [path.resolve(__dirname, "public/apps")],
         loader: 'jade-loader'
     }]
+  },
+  resolve: {
+    extensions: ['', '.js', '.jade']
   }
 };

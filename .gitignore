@@ -4,3 +4,4 @@ src/bower_components
 src/bundles
 *.log
 .DS_Store
+public/build
