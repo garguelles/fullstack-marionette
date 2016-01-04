@@ -1,4 +1,4 @@
-# Modern Backbone Starter-kit
+# Marionette | Express | ES6 Starter Kit
 
 [![Dependency Status](http://david-dm.org/sabarasaba/modern-backbone-starterkit.svg?style=flat)](https://david-dm.org/sabarasaba/modern-backbone-starterkit)
 [![Gitter](http://img.shields.io/badge/chat-online-brightgreen.svg?style=flat)](https://gitter.im/sabarasaba/modern-backbone-starterkit)
