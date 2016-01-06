@@ -1,17 +1,20 @@
-# Modern Backbone Starter-kit
+# Marionette | Express | ES6 Starter Kit
 
-[![Dependency Status](http://david-dm.org/sabarasaba/modern-backbone-starterkit.svg?style=flat)](https://david-dm.org/sabarasaba/modern-backbone-starterkit)
-[![Gitter](http://img.shields.io/badge/chat-online-brightgreen.svg?style=flat)](https://gitter.im/sabarasaba/modern-backbone-starterkit)
+[![Join the chat at https://gitter.im/garguelles/fullstack-marionette](https://badges.gitter.im/garguelles/fullstack-marionette.svg)](https://gitter.im/garguelles/fullstack-marionette?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+[![Dependency Status](https://david-dm.org/garguelles/fullstack-marionette.svg)](https://david-dm.org/garguelles/fullstack-marionette)
+
+
 
 > This project provides a prepared development environment based on [Gulp](http://gulpjs.com/), [Backbone](http://backbonejs.org/), [Babel](https://babeljs.io/) and [Webpack](http://webpack.github.io/). You can  use it to quickly bootstrap your web application projects. All the parts of this project template are easily replaceable.
 
 
 ### Getting Started
 
-Just [clone](github-windows://openRepo/https://github.com/sabarasaba/modern-backbone-starterkit) or [fork](https://github.com/sabarasaba/modern-backbone-starterkit/fork) the repo and start hacking:
+Just [clone](github-windows://openRepo/https://github.com/garguelles/fullstack-marionette.git) or [fork](https://github.com/garguelles/fullstack-marionette/fork) the repo and start hacking:
 
 ```shell
-$ git clone -o upstream https://github.com/sabarasaba/modern-backbone-starterkit.git AwesomeApp && cd $_
+$ git clone -o upstream https://github.com/garguelles/fullstack-marionette.git SampleApp && cd $_
 $ npm install -g gulp karma-cli     # Install Gulp task runner and Karma test runner globally
 $ npm install                       # Install Node.js components listed in ./package.json
 ```
