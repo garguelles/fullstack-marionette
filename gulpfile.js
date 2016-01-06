@@ -59,7 +59,7 @@ gulp.task('serve', function() {
     script: 'server.js',
     ext: '.js .jade .styl',
     ignore: ['node_modules/', 'bower_components/'],
-    watch: ['views/', 'api/', 'server.js']
+    watch: ['views/', 'api/', 'controllers/', 'server.js']
   });
 });
 
